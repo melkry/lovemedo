@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Love Me 'Do</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/base.css" />
+    <link rel="stylesheet" href="./style/booking.css" />
+    <link rel="stylesheet" href="./style/queries-desktop.css" />
+    <link rel="stylesheet" href="./style/queries-tablet.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Bebas+Neue&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <img
+        class="header-image"
+        src="https://static.vecteezy.com/system/resources/thumbnails/018/876/251/small/hair-salon-logo-black-png.png"
+        alt="logo"
+      />
+      <h2 class="header-title">Love Me 'Do</h2>
+      <p>Our Hair Won't Let You Down</p>
+      <p id="contact-info">
+        <a href="tel:5199816967">519-981-6967</a> | 1726 Peter St, Windsor ON
+      </p>
+    </header>
+
+    <!-- Main Menu-->
+    <nav>
+      <ul class="link-wrapper">
+        <li class="link"><a href="./index.html">Home</a></li>
+        <li class="link"><a href="./team.html">Our Team</a></li>
+        <li class="link"><a href="./booking.html">Booking</a></li>
+      </ul>
+    </nav>
+
+    <!-- Page Information -->
+    <section id="booking-title">
+      <div class="page-title">
+        <h1>Book an Appointment</h1>
+      </div>
+    </section>
+
+    <section id="booking-text">
+      <p>
+        Our hair salon is dedicated to providing our clients with exceptional
+        service, and we are open for business during the following hours:
+      </p>
+      <p>
+        Monday-Friday: 9am - 8pm
+        <br />
+        Saturday: 8am - 6pm
+        <br />
+        Sunday: Closed
+      </p>
+      <p>
+        Please note that our hours of operation are subject to change on
+        holidays and special occasions. We recommend that you call ahead or use
+        the form below to make an appointment with one of our skilled stylists.
+      </p>
+    </section>
+
+    <form>
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+
+        <br />
+
+        <label for="name">Email:</label>
+        <input type="email" id="email" name="email" />
+
+        <br />
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" />
+
+        <br />
+
+        <label for="contact">Preffered contact:</label>
+        <select id="contact" name="contact">
+          <option value="select">- Select -</option>
+          <option value="email">Email</option>
+          <option value="phone">Phone</option>
+        </select>
+      </fieldset>
+
+      <fieldset>
+        <legend>Appointment Information</legend>
+        <label for="appointment-date">Desired appointment date:</label>
+        <input type="date" id="appointment-date" name="appointment-date" />
+
+        <label>
+          <br />
+          What service would you like?
+          <br />
+          <input type="radio" id="women-cut" name="service" value="women-cut" />
+          <label for="women-cut">Women's cut - $43</label>
+          <br />
+          <input type="radio" id="men-cut" name="service" value="men-cut" />
+          <label for="men-cut">Men's cut - $23</label>
+          <br />
+          <input type="radio" id="updo" name="service" value="updo" />
+          <label for="updo">Updo - $35</label>
+          <br />
+          <input type="radio" id="colour" name="service" value="colour" />
+          <label for="colour">Colour - $75</label>
+          <br />
+          <input
+            type="radio"
+            id="colour-cut"
+            name="service"
+            value="colour-cut"
+          />
+          <label for="colour-cut">Colour & Cut - $85</label>
+          <br />
+          <input
+            type="radio"
+            id="highlights"
+            name="service"
+            value="highlights"
+          />
+          <label for="highlights">Highlights - $100</label>
+          <br />
+          <input type="radio" id="balayage" name="service" value="balayage" />
+          <label for="balayage"> Balayage - $100</label>
+        </label>
+      </fieldset>
+
+      <!-- Submit/Reset -->
+      <input type="submit" id="submit" class="colour-change" />
+    </form>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>Copyright &copy; 2022. Love Me 'Do</p>
+    </footer>
+  </body>
+</html>

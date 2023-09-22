@@ -1,0 +1,43 @@
+/* title */
+
+#booking-title .page-title {
+  background-image: url("https://static7.depositphotos.com/1005855/746/i/950/depositphotos_7460891-stock-photo-hair-salon-situation.jpg");
+  background-position: 85% 75%;
+}
+
+/* page information */
+
+#booking-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#booking-text p {
+  background-color: white;
+  margin: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+fieldset {
+  padding: 1rem;
+  margin: 1rem;
+  text-align: start;
+  background: white;
+}
+
+legend {
+  text-align: center;
+}
+
+#submit {
+  margin: 1rem;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}

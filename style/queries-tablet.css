@@ -1,0 +1,29 @@
+@media only screen and (min-width: 51.25rem) {
+  /* have text take up less of the page */
+
+  #welcome-text,
+  #team-text,
+  #booking-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #welcome-text p,
+  #team-text p,
+  #booking-text p {
+    max-width: 70%;
+  }
+
+  /* teams, have them smaller and wrap */
+
+  .team-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .member {
+    max-width: 40%;
+  }
+}

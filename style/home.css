@@ -1,0 +1,20 @@
+/* title */
+
+#welcome-title .page-title {
+  background-image: url("https://i.pinimg.com/736x/12/1f/6b/121f6bed1dbef7e586dd15caaa83f4ae.jpg");
+}
+
+/* page information */
+
+#welcome-text {
+  text-align: center;
+}
+
+#welcome-text p,
+#welcome-text h2 {
+  margin: 1rem;
+}
+
+#welcome-text p {
+  background-color: white;
+}

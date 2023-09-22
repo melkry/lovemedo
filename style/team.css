@@ -1,0 +1,40 @@
+/* page title */
+
+#team-title .page-title {
+  background-image: url("https://gettimely.com/wp-content/uploads/2018/06/timely-group-photos-hero-1400x800.jpg");
+  background-position: 40% 75%;
+}
+
+/* page information */
+
+#team-text {
+  margin: 1rem;
+  background-color: white;
+  padding: 1rem;
+}
+
+/* team cards */
+
+.team-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.member {
+  background-color: rgba(236, 187, 113, 0.8);
+  padding-bottom: 0.6rem;
+  width: 80%;
+  margin: 1rem;
+}
+
+.member img {
+  width: 100%;
+}
+
+.member-name-title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

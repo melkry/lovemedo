@@ -1,0 +1,141 @@
+* {
+  /*
+        1px, 2px, 4px, 8px, 16px, 24px, 36px, 48px, 64px, 72px
+    */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /*
+        font-size is 16px by default
+        16px * 62.5% = 10px;
+        1rem = 10px;
+        0.1rem = 1px;
+        Global reset
+    */
+  line-height: 1.6;
+}
+
+body {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvKqyUFrbBT_f71fQdqk_OUlsy81wYZ9MWkQ&usqp=CAU");
+  margin: 0 auto;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 24px;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+p {
+  line-height: 1.8rem;
+}
+
+.clear {
+  clear: both;
+}
+
+/* Header */
+.header {
+  background-color: rgba(195, 151, 86, 0.8);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8rem;
+  padding: 2.4rem 0rem;
+}
+
+.header-title {
+  font-family: "Lobster", cursive;
+}
+
+.header-image {
+  width: 10rem;
+}
+
+#contact-info {
+  font-size: 16px;
+  line-height: 1.2rem;
+}
+/* Nav Bar */
+
+.link-wrapper {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(156, 122, 72, 0.8);
+  padding: 1rem 0;
+}
+
+.link-wrapper .link {
+  padding: 0.5rem;
+  border: 1px solid black;
+}
+
+.link:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Footer */
+
+.footer {
+  background-color: rgba(156, 122, 72, 0.8);
+  text-align: center;
+  font-size: 16px;
+}
+
+/* page titles */
+
+.page-title {
+  background-position: 25% 75%;
+  text-align: center;
+  height: 48rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-title h1 {
+  padding: 0.5em;
+  background-color: rgba(156, 122, 72, 0.8);
+  color: #ffffff;
+  font-family: "Lobster", cursive;
+  font-size: 2.6rem;
+}
+
+h2 {
+  font-family: "Bebas Neue", cursive;
+  font-size: 2.4rem;
+}
+
+/* animation */
+
+@keyframes change-colour {
+  0% {
+    color: #586472;
+  }
+  25% {
+    color: #bf956a;
+  }
+  50% {
+    color: #703a11;
+  }
+  100% {
+    color: #703a11;
+  }
+}
+
+.colour-change {
+  animation-name: change-colour;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
